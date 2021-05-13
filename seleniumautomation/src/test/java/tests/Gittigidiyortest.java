@@ -26,11 +26,12 @@ public class Gittigidiyortest {
     // STEP  11  - Ürün sepetten silinerek sepetin boş olduğu kontrol edilir.
 
 
+     System.setProperty("webdriver.chrome.driver","seleniumautomation/drivers/chromedriver");
 
 
 
 
-        System.setProperty("webdriver.chrome.driver","././drivers/chromedriver");
+      //  System.setProperty("webdriver.chrome.driver","././drivers/chromedriver");
        // WebDriver driver=new ChromeDriver();
        // driver.get("https://www.gittigidiyor.com/");
        // driver.manage().window().fullscreen();
